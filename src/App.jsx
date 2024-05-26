@@ -1,12 +1,12 @@
 import './App.css'
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
-import { Navbar } from "./components/Navbar"
+import Navbar from "./components/Navbar";
 import { Footer } from "./components/Footer"
 import { onAuthStateChanged } from "firebase/auth";
 
 // hooks
 import { useState, useEffect } from "react";
-import { useAuthentication } from "./hooks/userAuthentication";
+import { useAuthentication } from "./hooks/useAuthentication";
 
 // context
 import { AuthProvider } from "./contexts/AuthContext";
