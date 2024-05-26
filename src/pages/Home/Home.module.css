@@ -10,13 +10,13 @@
   width: 100%;
   max-width: 800px;
   display: flex;
-  align-items: center; /* Alinha os itens verticalmente */
+  align-items: center;
   margin-bottom: 2em;
 }
 
 .search_form input {
   margin-right: 10px;
-  flex-grow: 1; /* Permite que o input ocupe o espaço disponível */
+  flex-grow: 1;
 }
 
 .search_form button {
@@ -28,7 +28,7 @@
   max-width: 800px;
   display: flex;
   flex-direction: column;
-  align-items: center; /* Alinha os itens no centro horizontalmente */
+  align-items: center;
 }
 
 .noposts {
@@ -41,4 +41,22 @@
 
 .noposts a {
   padding: 10px 25px;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .search_form {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .search_form input,
+  .search_form button {
+    width: 100%;
+    margin: 0 0 10px 0;
+  }
+
+  .post-list {
+    width: 100%;
+  }
 }

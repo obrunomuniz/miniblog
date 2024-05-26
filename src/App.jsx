@@ -41,7 +41,7 @@ function App() {
       <AuthProvider value={{ user }}>
         <BrowserRouter basename="/miniblog">
           <Navbar />
-          <div className="container">
+          <div className="content">
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/about" element={<About />} />

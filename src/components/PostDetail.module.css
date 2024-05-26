@@ -34,3 +34,14 @@
 .btn-outline {
   margin-top: 1em;
 }
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .post_detail {
+    padding: 0 10px;
+  }
+
+  .image {
+    width: 100%;
+  }
+}

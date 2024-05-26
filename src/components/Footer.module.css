@@ -6,3 +6,11 @@
   justify-content: center;
   background-color: #edf3f6;
 }
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .footer {
+    height: auto;
+    padding: 20px;
+  }
+}
