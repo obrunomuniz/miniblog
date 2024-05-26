@@ -1,20 +1,28 @@
 .post_container {
-    text-align: center;
-  }
-  
-  .post_container h3 {
-    margin-bottom: 0.2em;
-  }
-  
-  .post_container .tags {
-    display: flex;
-    justify-content: center;
-  }
-  
-  .tags p {
-    margin-right: 1em;
-  }
-  
-  .tags span {
-    font-weight: bold;
-  }
+  text-align: center;
+  padding: 20px; /* Adiciona um padding para espaçamento */
+}
+
+.post_container img {
+  max-width: 100%; /* Garante que a imagem não exceda a largura do contêiner */
+  height: auto; /* Mantém a proporção da imagem */
+  margin: 20px 0; /* Adiciona espaçamento acima e abaixo da imagem */
+}
+
+.post_container h3 {
+  margin-bottom: 0.2em;
+}
+
+.post_container .tags {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; /* Permite que as tags quebrem linha se necessário */
+}
+
+.tags p {
+  margin: 0 1em; /* Ajusta a margem das tags */
+}
+
+.tags span {
+  font-weight: bold;
+}
