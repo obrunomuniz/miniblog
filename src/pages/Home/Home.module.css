@@ -1,31 +1,44 @@
 .home {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .search_form {
-    max-width: 100%;
-    width: 60%;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 2em;
-  }
-  
-  .search_form input {
-    margin-right: 10px;
-    width: 50%;
-  }
-  
-  .noposts {
-    text-align: center;
-  }
-  
-  .noposts p {
-    margin-bottom: 1.5em;
-  }
-  
-  .noposts a {
-    padding: 10px 25px;
-  }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px;
+}
+
+.search_form {
+  width: 100%;
+  max-width: 800px;
+  display: flex;
+  align-items: center; /* Alinha os itens verticalmente */
+  margin-bottom: 2em;
+}
+
+.search_form input {
+  margin-right: 10px;
+  flex-grow: 1; /* Permite que o input ocupe o espaço disponível */
+}
+
+.search_form button {
+  margin-left: 10px;
+}
+
+.post-list {
+  width: 100%;
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Alinha os itens no centro horizontalmente */
+}
+
+.noposts {
+  text-align: center;
+}
+
+.noposts p {
+  margin-bottom: 1.5em;
+}
+
+.noposts a {
+  padding: 10px 25px;
+}
